@@ -1,0 +1,225 @@
+2021-02-27 06:32:24,123 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - Starting PhonebookwebappApplication using Java 11.0.10 on DESKTOP-A5TPVQF with PID 9016 (E:\java projects\Phonebookwebapp\target\classes started by anave in E:\java projects\Phonebookwebapp)
+2021-02-27 06:32:24,127 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - No active profile set, falling back to default profiles: default
+2021-02-27 06:32:27,047 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-27 06:32:27,274 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 211 ms. Found 1 JPA repository interfaces.
+2021-02-27 06:32:29,304 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-02-27 06:32:29,366 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-27 06:32:29,369 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-02-27 06:32:29,370 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-27 06:32:29,712 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-02-27 06:32:29,713 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 5478 ms
+2021-02-27 06:32:30,127 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-02-27 06:32:30,670 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-02-27 06:32:30,687 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-02-27 06:32:31,108 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-27 06:32:31,433 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-27 06:32:32,226 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-27 06:32:32,833 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-27 06:32:34,013 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-27 06:32:34,023 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-27 06:32:35,336 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-27 06:32:35,813 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-27 06:32:36,319 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-27 06:32:36,994 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-27 06:32:37,222 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-27 06:32:37,226 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-02-27 06:32:37,411 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-02-27 06:32:37,447 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-02-27 06:32:37,861 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - Started PhonebookwebappApplication in 14.882 seconds (JVM running for 16.09)
+2021-02-27 06:34:22,592 [http-nio-8080-exec-8] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-27 06:34:22,595 [http-nio-8080-exec-8] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-02-27 06:34:22,607 [http-nio-8080-exec-8] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 10 ms
+2021-02-27 07:24:47,631 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-02-27 07:24:48,163 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-27 07:24:48,168 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-27 07:24:48,178 [RMI TCP Connection(7)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-02-27 07:24:48,362 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-02-27 07:24:48,370 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-02-27 07:24:59,996 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - Starting PhonebookwebappApplication using Java 11.0.10 on DESKTOP-A5TPVQF with PID 3076 (E:\java projects\Phonebookwebapp\target\classes started by anave in E:\java projects\Phonebookwebapp)
+2021-02-27 07:24:59,999 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - No active profile set, falling back to default profiles: default
+2021-02-27 07:25:02,268 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-27 07:25:02,404 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interfaces.
+2021-02-27 07:25:04,655 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-02-27 07:25:04,702 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-27 07:25:04,704 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-02-27 07:25:04,705 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-27 07:25:05,089 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-02-27 07:25:05,089 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 4988 ms
+2021-02-27 07:25:05,260 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-02-27 07:25:05,676 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-02-27 07:25:05,684 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-02-27 07:25:06,152 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-27 07:25:06,337 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-27 07:25:06,937 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-27 07:25:07,322 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-27 07:25:08,977 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-27 07:25:08,988 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-27 07:25:10,330 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-27 07:25:10,718 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-27 07:25:11,028 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-27 07:25:11,449 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-27 07:25:11,591 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-27 07:25:11,592 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-02-27 07:25:11,632 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-02-27 07:25:11,649 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-02-27 07:25:11,963 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - Started PhonebookwebappApplication in 12.448 seconds (JVM running for 14.08)
+2021-02-27 07:25:14,204 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-27 07:25:14,206 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-02-27 07:25:14,208 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms 
+ Cannot deserialize instance of `int` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 2, column: 16] (through reference chain: com.java.phonebook.entity.Contact["contactId"])]
+2021-02-27 07:28:21,242 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `int` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `int` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 2, column: 16] (through reference chain: com.java.phonebook.entity.Contact["contactId"])]
+2021-02-27 07:28:56,328 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `int` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `int` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 2, column: 16] (through reference chain: com.java.phonebook.entity.Contact["contactId"])]
+2021-02-27 07:29:44,680 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `int` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `int` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 2, column: 16] (through reference chain: com.java.phonebook.entity.Contact["contactId"])]
+2021-02-27 07:29:54,560 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `int` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `int` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 2, column: 16] (through reference chain: com.java.phonebook.entity.Contact["contactId"])]
+2021-02-27 07:31:01,828 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-02-27 07:31:02,237 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-27 07:31:02,246 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-27 07:31:02,248 [RMI TCP Connection(10)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-02-27 07:31:02,315 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-02-27 07:31:02,329 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-02-27 15:02:31,745 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - Starting PhonebookwebappApplication using Java 11.0.10 on DESKTOP-A5TPVQF with PID 12896 (E:\java projects\Phonebookwebapp\target\classes started by anave in E:\java projects\Phonebookwebapp)
+2021-02-27 15:02:31,750 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - No active profile set, falling back to default profiles: default
+2021-02-27 15:02:32,782 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-27 15:02:32,832 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2021-02-27 15:02:34,205 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-02-27 15:02:34,221 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-27 15:02:34,222 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-02-27 15:02:34,236 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-27 15:02:34,595 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-02-27 15:02:34,596 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2795 ms
+2021-02-27 15:02:34,873 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-02-27 15:02:35,559 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-02-27 15:02:35,591 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-02-27 15:02:36,087 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-27 15:02:36,241 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-27 15:02:36,709 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-27 15:02:37,111 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-27 15:02:37,983 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-27 15:02:38,062 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-27 15:02:38,940 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-27 15:02:39,395 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-27 15:02:39,652 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-27 15:02:39,926 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-27 15:02:40,070 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-27 15:02:40,071 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-02-27 15:02:40,095 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-02-27 15:02:40,105 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-02-27 15:02:40,332 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - Started PhonebookwebappApplication in 9.11 seconds (JVM running for 11.015)
+2021-02-27 15:02:42,354 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-27 15:02:42,356 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-02-27 15:02:42,358 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2021-02-27 15:04:28,450 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `int` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `int` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 2, column: 16] (through reference chain: com.java.phonebook.entity.Contact["contactId"])]
+2021-02-27 15:08:20,160 [http-nio-8080-exec-4] INFO  c.j.p.controller.PhoneBookController               - **** saveContact() -contact saved ****
+2021-02-27 15:09:03,296 [http-nio-8080-exec-7] INFO  c.j.p.controller.PhoneBookController               - **** saveContact() -contact saved ****
+2021-02-27 15:09:56,474 [http-nio-8080-exec-10] INFO  c.j.p.controller.PhoneBookController               - *** getContactById() ** execution started ***
+2021-02-27 15:09:56,475 [http-nio-8080-exec-10] ERROR c.j.p.controller.PhoneBookController               - exception occured contact not found 
+2021-02-27 15:10:33,622 [http-nio-8080-exec-7] INFO  c.j.p.controller.PhoneBookController               - *** getContactById() ** execution started ***
+2021-02-27 15:10:33,622 [http-nio-8080-exec-7] ERROR c.j.p.controller.PhoneBookController               - exception occured contact not found 
+2021-02-27 15:10:54,696 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-02-27 15:10:54,980 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-27 15:10:54,985 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-27 15:10:54,986 [RMI TCP Connection(13)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-02-27 15:10:55,014 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-02-27 15:10:55,022 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-02-27 15:15:33,145 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - Starting PhonebookwebappApplication using Java 11.0.10 on DESKTOP-A5TPVQF with PID 15500 (E:\java projects\Phonebookwebapp\target\classes started by anave in E:\java projects\Phonebookwebapp)
+2021-02-27 15:15:33,148 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - No active profile set, falling back to default profiles: default
+2021-02-27 15:15:33,920 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-27 15:15:33,964 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2021-02-27 15:15:34,779 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-02-27 15:15:34,791 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-27 15:15:34,792 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-02-27 15:15:34,792 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-27 15:15:34,945 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-02-27 15:15:34,945 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1731 ms
+2021-02-27 15:15:35,057 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-02-27 15:15:35,261 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-02-27 15:15:35,268 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-02-27 15:15:35,512 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-27 15:15:35,651 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-27 15:15:35,929 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-27 15:15:36,083 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-27 15:15:36,885 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-27 15:15:36,893 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-27 15:15:37,391 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-27 15:15:37,570 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-27 15:15:37,682 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-27 15:15:37,888 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-27 15:15:37,912 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-27 15:15:37,912 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-02-27 15:15:37,931 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-02-27 15:15:37,943 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-02-27 15:15:38,076 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - Started PhonebookwebappApplication in 5.234 seconds (JVM running for 6.222)
+2021-02-27 15:15:40,097 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-27 15:15:40,098 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-02-27 15:15:40,100 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2021-02-27 15:16:52,230 [http-nio-8080-exec-8] INFO  c.j.p.controller.PhoneBookController               - **** saveContact() -contact saved ****
+2021-02-27 15:17:26,311 [http-nio-8080-exec-1] INFO  c.j.p.controller.PhoneBookController               - **** saveContact() -contact saved ****
+2021-02-27 15:18:18,792 [http-nio-8080-exec-5] INFO  c.j.p.controller.PhoneBookController               - *** getContactById() ** execution started ***
+2021-02-27 15:18:18,792 [http-nio-8080-exec-5] ERROR c.j.p.controller.PhoneBookController               - exception occured contact not found 
+2021-02-27 15:19:53,930 [http-nio-8080-exec-4] INFO  c.j.p.controller.PhoneBookController               - **** saveContact() -contact saved ****
+2021-02-27 15:20:27,231 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (',' (code 44)): expected a value
+ at [Source: (PushbackInputStream); line: 2, column: 17]]
+2021-02-27 15:20:55,587 [http-nio-8080-exec-9] INFO  c.j.p.controller.PhoneBookController               - **** saveContact() -contact saved ****
+2021-02-27 15:21:28,291 [http-nio-8080-exec-8] INFO  c.j.p.controller.PhoneBookController               - **** saveContact() -contact saved ****
+2021-02-27 15:21:56,529 [http-nio-8080-exec-5] INFO  c.j.p.controller.PhoneBookController               - *** getContactById() ** execution started ***
+2021-02-27 15:21:56,529 [http-nio-8080-exec-5] ERROR c.j.p.controller.PhoneBookController               - exception occured contact not found 
+2021-02-27 15:27:29,922 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-02-27 15:27:30,071 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-27 15:27:30,073 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-27 15:27:30,073 [RMI TCP Connection(16)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-02-27 15:27:30,082 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-02-27 15:27:30,087 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-02-27 15:27:35,524 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - Starting PhonebookwebappApplication using Java 11.0.10 on DESKTOP-A5TPVQF with PID 12488 (E:\java projects\Phonebookwebapp\target\classes started by anave in E:\java projects\Phonebookwebapp)
+2021-02-27 15:27:35,527 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - No active profile set, falling back to default profiles: default
+2021-02-27 15:27:36,262 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-27 15:27:36,308 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2021-02-27 15:27:37,000 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-02-27 15:27:37,008 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-27 15:27:37,009 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-02-27 15:27:37,009 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-27 15:27:37,234 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-02-27 15:27:37,235 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1650 ms
+2021-02-27 15:27:37,331 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-02-27 15:27:37,497 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-02-27 15:27:37,505 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-02-27 15:27:37,712 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-27 15:27:37,757 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-27 15:27:37,876 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-27 15:27:37,982 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-27 15:27:38,532 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-27 15:27:38,540 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-27 15:27:38,952 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-27 15:27:39,131 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-27 15:27:39,244 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-27 15:27:39,456 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-27 15:27:39,474 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-27 15:27:39,475 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-02-27 15:27:39,490 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-02-27 15:27:39,499 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-02-27 15:27:39,622 [main] INFO  c.j.phonebook.PhonebookwebappApplication           - Started PhonebookwebappApplication in 4.413 seconds (JVM running for 5.248)
+2021-02-27 15:27:41,411 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-27 15:27:41,411 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-02-27 15:27:41,413 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2021-02-27 15:28:13,604 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (',' (code 44)): expected a value
+ at [Source: (PushbackInputStream); line: 2, column: 17]]
+2021-02-27 15:28:26,561 [http-nio-8080-exec-5] INFO  c.j.p.controller.PhoneBookController               - **** saveContact() -contact saved ****
+2021-02-27 15:28:52,473 [http-nio-8080-exec-7] INFO  c.j.p.controller.PhoneBookController               - **** saveContact() -contact saved ****
+2021-02-27 15:29:19,884 [http-nio-8080-exec-10] INFO  c.j.p.controller.PhoneBookController               - **** saveContact() -contact saved ****
+2021-02-27 15:31:11,799 [http-nio-8080-exec-2] INFO  c.j.p.controller.PhoneBookController               - *** getContactById() ** execution started ***
+2021-02-27 15:31:11,799 [http-nio-8080-exec-2] ERROR c.j.p.controller.PhoneBookController               - exception occured contact not found 
+2021-02-27 15:36:48,634 [http-nio-8080-exec-7] INFO  c.j.p.controller.PhoneBookController               - *** getContactById() ** execution started ***
+2021-02-27 15:36:48,635 [http-nio-8080-exec-7] ERROR c.j.p.controller.PhoneBookController               - exception occured contact not found 
+2021-02-27 15:52:34,899 [http-nio-8080-exec-10] INFO  c.j.p.controller.PhoneBookController               - *** getContactById() ** execution started ***
+2021-02-27 15:52:34,899 [http-nio-8080-exec-10] ERROR c.j.p.controller.PhoneBookController               - exception occured contact not found 
+2021-02-27 17:26:54,212 [RMI TCP Connection(127)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-02-27 17:27:15,347 [RMI TCP Connection(127)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-27 17:27:16,158 [RMI TCP Connection(127)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-27 17:27:19,782 [RMI TCP Connection(127)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-02-27 17:27:27,800 [RMI TCP Connection(127)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-02-27 17:27:29,322 [RMI TCP Connection(127)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

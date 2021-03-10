@@ -1,0 +1,27 @@
+logging:
+  file:
+    clean-history-on-start: true
+    max-history: 30
+    max-size: 1MB
+    name: phonebook.log
+    total-size-cap: 10MB
+  pattern:
+    rolling-file-name: MyApp-%d{yyyy-MM-dd}.%i.log
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: ''
+    url: 'jdbc:h2:mem:testdb  '
+    username: sa
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    
+phonebook:
+  messages:
+    saveContactSuccess: Contact Saved Successfully
+    saveContactFailed: Contact failed to save
+    deleteContactSuccess: Contact deleted successfully
+    deleteContactFailed: Failed To Delete Contact
